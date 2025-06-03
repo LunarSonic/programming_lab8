@@ -1,0 +1,20 @@
+show
+sum_of_annual_turnover
+add
+Oracle
+23.34
+83
+100944
+PUBLIC
+Nevsky Avenue
+remove_by_id 3
+update 1
+Avito
+183.55
+193
+10000
+PUBLIC
+Kamenoostrovsky Avenue
+info
+help
+remove_all_by_annual_turnover p
