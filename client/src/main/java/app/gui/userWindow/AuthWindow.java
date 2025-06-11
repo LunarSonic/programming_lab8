@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 import java.util.Locale;
 
 /**
- * Класс, который представляет собой главное окно авторизации/регистрации
+ * Класс, который представляет собой главное окно входа/регистрации
  */
 public class AuthWindow extends JFrame {
     private final JLayeredPane bg = new JLayeredPane();

@@ -7,7 +7,7 @@ import utility.User;
 import java.util.Locale;
 
 /**
- * Класс, который управляет процессом аутентификации (регистрация и авторизация)
+ * Класс, который управляет процессом авторизации (регистрация и вход)
  */
 public class AuthController {
     private final UserModule userModule;
@@ -32,7 +32,7 @@ public class AuthController {
     }
 
     /**
-     * Метод, который выполняет авторизацию пользователя
+     * Метод, который выполняет вход пользователя
      */
     public void performLogin() {
         String login = view.getLoginUserText().getText().trim();
@@ -103,7 +103,7 @@ public class AuthController {
 
     /**
      * Устанавливает действие, которое будет выполнено при успешной аутентификации
-     * @param authIsSuccessful
+     * @param authIsSuccessful действие, выполняемое после успешного входа
      */
     public void setAuthIsSuccessful(Runnable authIsSuccessful) {
         this.authIsSuccessful = authIsSuccessful;

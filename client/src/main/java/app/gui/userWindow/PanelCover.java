@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.util.Locale;
 
 /**
- * Класс, который представляет из себя панель с текстом приветствия и кнопками
+ * Класс, который представляет из себя панель с текстом приветствия
  */
 public class PanelCover extends JPanel {
     private ActionListener event;
